@@ -4,23 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_gravity="center"
     tools:context=".MainActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        >
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_centerInParent="true"
-            android:gravity="center"
+            android:padding="16dp"
             >
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:src="@mipmap/ic_logo"
-                ></ImageView>
+                />
             <EditText
                 android:id="@+id/txtUser"
                 android:layout_width="match_parent"
