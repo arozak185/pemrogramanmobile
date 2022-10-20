@@ -21,7 +21,7 @@
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_logo"
+                android:src="@mipmap/ic_logo2"
                 />
             <EditText
                 android:id="@+id/txtUser"
@@ -44,8 +44,11 @@
                 android:text="Login"
                 android:background="@drawable/btn_default"
                 android:textColor="@color/white"
-                android:layout_marginLeft="@dimen/cardview_default_radius"
-                android:layout_marginRight="@dimen/cardview_default_radius"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_marginLeft="@dimen/default_margin"
+                android:layout_marginRight="@dimen/default_margin"
+                app:backgroundTint="@null"
+
                 >
             </Button>
         </LinearLayout>
